@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+            <!-- environment settings -->
+	<parameter name="baseurl" value="https://k8.cgcx.io/" />
+	<parameter name="browser" value="chrome" />
+
+	             <!-- for login-->
+		
+	<parameter name="email" value="bcltest780+2@gmail.com" />
+	<parameter name="password" value="Dhanesh@123" />
+	
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="com.cgcx.scripts.testScript"/>
+<!--       <class name="com.cgcx.scripts.loginTest"/> -->
+<!--       <class name="com.cgcx.scripts.tradeTest"/> -->
+<!--       <class name="com.cgcx.scripts.walletTest"/> -->
+<!--       <class name="com.cgcx.scripts.ordersTest"/> -->
+<!--       <class name="com.cgcx.scripts.historyTest"/> -->
+<!--       <class name="com.cgcx.scripts.marketTest"/> -->
+<!--       <class name="com.cgcx.scripts.referralTest"/> -->
+<!--       <class name="com.cgcx.scripts.logoutTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
